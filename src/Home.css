@@ -1,0 +1,166 @@
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: blue;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  
+  .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+  }
+  
+  .menu-section {
+    text-align: center;
+    border: 1px solid white;
+    color: red;
+  }
+  
+  .menu-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 25rem;
+  }
+  
+  #MENU {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+  }
+  
+  #MENU img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .menu-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-content p {
+    font-size: 18px;
+  }
+  
+  .menu-buttons button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    margin-top: -270px;
+  }
+  
+  .menu-item {
+    margin: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .menu-items {
+      grid-template-columns: auto auto;
+    }
+  
+    .menu-buttons {
+      margin: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .menu-items {
+      grid-template-columns: auto;
+      margin-top: -650px;
+    }
+  
+    .menu-buttons {
+      flex-direction: column;
+      margin: 50rem 0;
+    }
+  
+    .menu-buttons button {
+      margin: 0.5rem 0;
+      width: 100%;
+    }
+  
+    .menu-content h1 {
+      font-size: 28px;
+    }
+  
+    .menu-content p {
+      font-size: 16px;
+    }
+  
+    .menu-section {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu-content h1 {
+      font-size: 24px;
+    }
+  
+    .menu-content p {
+      font-size: 14px;
+    }
+  }
+  
+
+  
+.nav-link {
+    color: white;
+  }
+  
+  .nav-link:hover {
+    color: blue; 
+  }
+  
+  
+
+  .custom-card {
+    background-color: black !important;
+    border: 1px solid white;          
+  }
+  
+  .custom-card .card-title {
+    color: #0796EF;  
+  }
+  
+  .custom-card .card-text {
+    color: #857878;
+  }
+  
+  .custom-card i {
+    color: white;    
+  }
+
+  
